@@ -1,0 +1,53 @@
+body {
+    background-image: url("images/background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    font-family: 'Bree Serif', serif;
+    color: black;
+    text-align: center;
+}
+.centered {
+	margin-left: 70px
+}
+p {
+	font-size: 20px;
+	margin-bottom: -9px;
+}
+button {
+	border-radius: 8px;
+	border: 2px solid #395BBF;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: #395BBF;
+    color: white;
+ }
+
+.main-section-title {
+	font-size: 49px;
+	text-align: center;
+}
+img {
+	height: 100px;
+	width: 100px;
+}
+
+#players div {
+	width: 20%;
+	float: left;
+}
+
+#hero, #attack, #opponent {
+	width: 33.33333%;
+	float: left;
+	box-sizing: border-box;
+}
+
+
+#attack button {
+	padding: 20px;
+}
+
